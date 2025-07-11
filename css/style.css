@@ -141,8 +141,8 @@ header{
   gap:10px;
 }
 .cart-single{
-  width: 366px;
-  height: 243px;
+  width: 350px;
+  height: 250px;
   background-color: white;
   border-radius: 15px;
   padding: 30px;
@@ -263,7 +263,7 @@ input[type=text]{
 }
 textarea{
   width: 100%;
-  padding: 12px 20px;
+  padding: 12px 0px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid white;
@@ -316,7 +316,9 @@ input[type=submit]:hover{
     margin-bottom: 30px;
 
   }
-
+.link{
+  padding: 0px 450px;
+}
 .link ul{
   display: flex;
   justify-content: space-around;
