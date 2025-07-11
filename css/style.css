@@ -170,3 +170,58 @@ header{
 .name p{
   color: #b6b4b4;
   }
+  /* ***********************************************************************
+  user review section section end
+  
+  ***************************************************************************/
+
+.ready-to-focus{
+  width: 1140px;
+  height: 696px;
+  background-color: white;
+  margin: 0px auto;
+  align-items: center;
+  text-align: center;
+}
+.ready-to-focus h1{
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  padding: 40px 0px 20px 0px;
+}
+.ready-to-focus p{
+  font-size: 16px;
+  color:#838080;
+  padding: 10px;
+}
+.ready-to-focus img{
+  display: block;
+  margin: 0px auto;
+  width: 840px;
+  height: 364px;
+  border-radius: 48px;
+}
+.raleway-btn-free {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-size: 16px;
+  
+}
+
+.btn-get{
+  background-color: #4E47FF;
+  border-radius: 5px;
+  border:1px solid #4E47FF;
+  padding: 10px;
+  color:white;
+  margin-top: 20px;
+  transition: 1s;
+  margin-bottom: 10px;
+}
+.btn-get:hover{
+  color: #4E47FF;
+  background-color: white;
+  border: 1px solid #4E47FF;
+  transition: 1s;
+}
