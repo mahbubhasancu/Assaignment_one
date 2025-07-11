@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+  background-color:#F5F8FF;
+}
 header{
     background-image: url(../Assets/Hero-bg.png);
     height: 698px;
@@ -38,6 +41,7 @@ header{
     padding: 10px;
     color:white;
     margin-top: 40px;
+    transition: 1s;
   }
   .btn:hover{
     color: #4E47FF;
@@ -59,11 +63,11 @@ header{
   nav and header section end
   
   ***************************************************************************/
-  .container{
+  .action{
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-around;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 100px;
   }
   .raleway-action{
     font-family: "Raleway", sans-serif;
@@ -80,6 +84,89 @@ header{
   }  
 .right img{
     width: 100%;
-    border-radius: 5%;
+    border-radius: 48px;
     
 }
+/*********************************************************************
+ action section end
+**********************************************************************/
+.productive{
+  width: 1140px;
+  height: 306px;
+  background-color: #d4d0f7;
+  border-radius: 24px;
+  margin: 50px auto;
+}
+.product-title{
+  text-align: center;
+  padding:50px;
+  font-size: 38px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+}
+.data{
+  display: flex;
+  justify-content: space-around;
+}
+.data-title{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  color: #4E47FF;
+  font-size: 80px;
+  text-align: center;
+}
+.data-subtitle{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:normal;
+  color: #838080;
+  font-size: 20px;
+  text-align: center;
+}
+/* ***********************************************************************
+  productive section end
+  
+  ***************************************************************************/
+
+.user-review{
+ 
+ margin: 50px auto;
+}
+
+.cart{
+  display: flex;
+  justify-content:space-evenly;
+  align-items:center;
+  gap:10px;
+}
+.cart-single{
+  width: 366px;
+  height: 243px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 30px;
+}
+.user{
+    display: flex;
+    gap: 15px;
+
+  }
+.review-text h3{
+  color: black;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  }
+.review-text p{
+  color: #838080;
+  margin-bottom: 20px;
+  }
+.user img{
+  border-radius: 50%;
+  }
+.name h4{
+  color: #838080;
+  }
+.name p{
+  color: #b6b4b4;
+  }
