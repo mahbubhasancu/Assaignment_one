@@ -226,6 +226,68 @@ header{
   transition: 1s;
 }
   /* ***********************************************************************
-  ready section section end
+  ready  section end
   
   ***************************************************************************/
+
+.get-in-touch{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 80px 0px;
+}
+.text h1{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-size: 97px;
+  max-width: 528px;
+}
+
+.lebelemail{
+  display: block;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.lebel{
+  font-weight: bold;
+}
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+input[type=submit]{
+  background-color: #4E47FF;
+  border-radius: 10px;
+  border:1px solid #4E47FF;
+  padding: 10px;
+  color:white;
+  margin-top: 20px;
+  transition: 1s;
+  margin-bottom: 10px;
+  width: 100%;
+}
+input[type=submit]:hover{
+  background-color: white;
+  border-radius: 10px;
+  border:1px solid #4E47FF;
+  padding: 10px;
+  color:#4E47FF;
+  margin-top: 20px;
+  transition: 1s;
+  margin-bottom: 10px;
+  width: 100%;
+}
